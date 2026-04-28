@@ -6,7 +6,7 @@
 ## 📁 Struktur Project
 
 ```
-antique-gallery/
+galeri barang antik/
 ├── index.php               ← Beranda (Hero, Kategori, Featured Products)
 ├── catalog.php             ← Katalog semua produk + filter + search + pagination
 ├── product.php             ← Detail produk
@@ -30,47 +30,11 @@ antique-gallery/
 │   └── admin_footer.php    ← Layout footer admin
 │
 └── uploads/                ← Folder gambar produk yang diupload
-```
 
----
 
-## ⚙️ Cara Instalasi
-
-### 1. Persiapan
-- Pastikan XAMPP / WAMP / Laragon sudah terinstall
-- Aktifkan Apache dan MySQL
-
-### 2. Copy Project
-```
-Salin folder `antique-gallery` ke:
-- XAMPP: C:/xampp/htdocs/antique-gallery
-- WAMP:  C:/wamp64/www/antique-gallery
-```
-
-### 3. Setup Database
-1. Buka phpMyAdmin: `http://localhost/phpmyadmin`
-2. Buat database baru: **maroon_antique**
-3. Klik tab **Import**
-4. Upload file `database.sql`
-5. Klik **Go**
-
-### 4. Konfigurasi Database
-Edit file `includes/config.php`:
-```php
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');     // Username MySQL Anda
-define('DB_PASS', '');         // Password MySQL Anda (kosong jika default XAMPP)
-define('DB_NAME', 'maroon_antique');
-```
-
-### 5. Permission Folder Uploads
-Pastikan folder `uploads/` bisa ditulis (write permission):
-- Windows XAMPP: biasanya sudah otomatis
-- Linux: `chmod 775 uploads/`
-
-### 6. Akses Website
-- **Website**: `http://localhost/antique-gallery/`
-- **Admin**: `http://localhost/antique-gallery/admin/`
+###  Akses Website
+- **Website**: `http://localhost/galeri barang antik/`
+- **Admin**: `http://localhost/galeri barang antik/admin/`
 
 ---
 
@@ -114,8 +78,5 @@ Pastikan folder `uploads/` bisa ditulis (write permission):
 - **Database**: MySQL / MariaDB
 - **Server**: Apache (XAMPP/WAMP)
 
----
 
-## 📌 Catatan
-- Tema: **Galeri Barang Antik** (digit NPM terakhir = 1)
-- Warna utama: Maroon (#9b2335) + Gold (#c9a84c) + Cream (#faf4e8)
+
